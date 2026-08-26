@@ -5,10 +5,18 @@
 
 ## Problem
 
-Given an 86-attribute customer dataset (5,822 training records), predict which customers are likely to
-purchase an AIA insurance policy, then hand the division manager a short, prioritised list of the customers
-most worth targeting. The target variable is **severely imbalanced** — the large majority of customers do
-not purchase.
+VPINS (VPBank's insurance division) wanted to run an efficient sales campaign for a healthcare policy (AIA).
+Given an 86-attribute customer dataset (5,822 training records: 42 sociodemographic + 43 product-ownership
+attributes), predict which customers are likely to purchase the policy, then hand the division manager a
+short, prioritised list of the customers most worth targeting. The target variable is **severely imbalanced**
+— the large majority of customers do not purchase.
+
+The brief had two explicit deliverables, scored separately:
+1. **Prediction task** — filter the 4,000-customer test set down to the 800 most promising cases (validated
+   against a held-out label set the team didn't have access to).
+2. **Explanation task** — scored specifically on **comprehensibility, usefulness, and actionability** for the
+   division manager, not just technical accuracy. This is why the SHAP interpretability step wasn't
+   optional — it was graded criteria, not a nice-to-have.
 
 ## Approach
 
@@ -36,6 +44,7 @@ not purchase.
 
 - `notebooks/01_EDA.ipynb` — exploratory data analysis
 - `notebooks/02_Model.ipynb` — SMOTE, model benchmarking, XGBoost tuning, SHAP analysis
+- `AI_DATA_SCIENTIST_CHALLENGE_brief.pdf` — original task brief from VPBank/VPINS
 - `attributes_description.pdf` — data dictionary for the 86 features (based on the COIL 2000 insurance
   dataset structure)
 - `top_800_customers_output.csv` — final shortlisted customer output
