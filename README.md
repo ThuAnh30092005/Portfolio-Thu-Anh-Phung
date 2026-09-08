@@ -1,8 +1,8 @@
 # Portfolio — Thu Anh Phung
 
-Data Analyst / Data Scientist · B.Bus Analytics, Macquarie University · Graduating June 2026
+Data Analyst / Business Intelligence Analyst · B.Bus Analytics, Macquarie University · Graduated June 2026
 
-📍 Sydney, NSW · 📧 thuanhphung2005@gmail.com · 📄 [Case studies (Notion)](https://app.notion.com/p/3c2c83dfa32d8117a78be9d2bbc241e0)
+📍 · 📧 thuanhphung2005@gmail.com · 📄 [Case studies (Notion)](https://app.notion.com/p/3c2c83dfa32d8117a78be9d2bbc241e0)
 
 ---
 
@@ -26,7 +26,7 @@ Full narrative write-ups (with methodology diagrams) are in the [Notion case stu
 - **BI & visualization:** Tableau, Power BI, Excel
 - **Tools:** Jupyter, Git, Jira (Agile/Scrum)
 
-## A note on scope and honesty
+## A note on scope
 
 Several of these projects were team efforts. Each project README states exactly which parts I owned versus
-where I collaborated with teammates — I'd rather be precise about my actual contribution than inflate it.
+where I collaborated with teammates.
